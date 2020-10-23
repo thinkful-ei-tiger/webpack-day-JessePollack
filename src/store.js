@@ -1,3 +1,4 @@
+import $ from 'jquery'
 import item from './item';
 
 const items = [];

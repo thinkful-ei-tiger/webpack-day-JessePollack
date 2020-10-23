@@ -1,3 +1,5 @@
+import $ from 'jquery'
+
 const validateName = function(name) {
   if (!name) throw new TypeError('Name must not be blank');
 };

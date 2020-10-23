@@ -1,3 +1,4 @@
+import $ from 'jquery'
 import store from './store';
 import item from './item.js';
 
@@ -45,6 +46,7 @@ const render = function () {
 };
 
 const handleNewItemSubmit = function () {
+  console.log("hello")
   $('#js-shopping-list-form').submit(function (event) {
     event.preventDefault();
     const newItemName = $('.js-shopping-list-entry').val();
