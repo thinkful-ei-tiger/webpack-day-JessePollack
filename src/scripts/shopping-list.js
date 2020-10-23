@@ -1,4 +1,4 @@
-import store from './store.js';
+import store from './store';
 import item from './item.js';
 
 const generateItemElement = function (item) {
